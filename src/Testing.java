@@ -57,7 +57,7 @@ public class Testing {
 
         String eol = System.getProperty("line.separator");
 
-        try (Writer writer = new FileWriter("somefile.csv")) {
+        try (Writer writer = new FileWriter("Market_Catalog_Query_Params.csv")) {
             for (Map.Entry<String, String> entry : allKeyValuePairs.entrySet()) {
                 writer.append(entry.getKey())
                         .append(',')
